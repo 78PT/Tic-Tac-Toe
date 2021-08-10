@@ -15,7 +15,8 @@ class Root(tk.Tk):
 
         self.title('Tic Tac Toe')
         self.geometry('500x400')
-
+        
+        #establish images
         self.char_x = tk.PhotoImage(file='./char_x.png')
         self.char_o = tk.PhotoImage(file='./char_o.png')
         self.empty = tk.PhotoImage()
