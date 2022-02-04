@@ -16,11 +16,12 @@ class Root(tk.Tk):
         self.title('Tic Tac Toe')
         self.geometry('500x400')
         
-        #establish images
+        #images
         self.char_x = tk.PhotoImage(file='./char_x.png')
         self.char_o = tk.PhotoImage(file='./char_o.png')
         self.empty = tk.PhotoImage()
 
+        #build games
         self.active = 'GAME ACTIVE'
         self.total_cells = 9
         self.line_size = 3
